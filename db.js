@@ -5,7 +5,7 @@ const sequelize = new Sequelize(connectionString, {define: { timestamps: false }
 
 sequelize.sync()
   .then(() => {
-    console.log('Sequelize updated database schema')
+    console.log('Sequelize DID COOL UPDATES TO DB')
   })
   .catch(console.error)
 
