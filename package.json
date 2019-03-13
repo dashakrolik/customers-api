@@ -2,6 +2,9 @@
   "name": "customers-api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.3",
